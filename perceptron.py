@@ -50,11 +50,11 @@ def perceptron(numero_aleatorio,numeroTeta,pasadas):
     elif num_columnas-1 == 3:
         dibujar3D(nombresColumnas,primerasfilas,nombre_ultima_columna)
     # Generar un número aleatorio entre 0 y 1 la librería random
-    """for _ in range(num_columnas -1):
+    for _ in range(num_columnas -1):
         numero_aleatorio.append(random.random())
-    numeroTeta = random.random()"""
-    numero_aleatorio = [0,0.4,0.9,0.2,1,1,0.1,0.3,0]
-    numeroTeta = 0.8
+    numeroTeta = random.random()
+    """numero_aleatorio = [0,0.4,0.9,0.2,1,1,0.1,0.3,0]
+    numeroTeta = 0.8"""
     while pasadas > 0:
         print("Pasada: ", pasadas)
         for i in range(primerasfilas.shape[0]):
